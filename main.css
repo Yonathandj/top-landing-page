@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 40px;
+    align-items: center;
+    font-size: 16px;
+}
+.header .logo {
+    font-size: 1.2rem;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 1.6em;
+    margin-left: 6em;
+    text-transform: uppercase;
+}
+.header ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1.6em;
+    margin-right: 8em;
+}
+.header ul a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+/* End of Header */
