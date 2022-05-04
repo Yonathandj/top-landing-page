@@ -3,25 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    font-size: 16px;
-}
 
 /* Header */
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    height: 40px;
+    height: 60px;
     align-items: center;
-    font-size: 16px;
 }
 .header .logo {
-    font-size: 1.2rem;
+    font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-    padding: 1.6em;
-    margin-left: 6em;
+    padding: 16px;
+    margin-left: 216px;
     text-transform: uppercase;
 }
 .header ul {
@@ -29,11 +25,67 @@ html {
     width: 30%;
     justify-content: space-evenly;
     list-style: none;
-    padding: 1.6em;
-    margin-right: 8em;
+    padding: 24px;
+    margin-right: 148px;
 }
 .header ul a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 /* End of Header */
+
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    width: 100%;
+    height: 500px;
+}
+.hero .left-bar {
+    width: 400px;
+    height: 255px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero .left-bar h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.hero .left-bar p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.hero .left-bar button {
+    color: white;
+    font-size: 18px;
+    background-color: #3882f6;
+    border: none;
+    width: 120px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.hero .right-bar {
+    width: 400px;
+    margin-top: 40px;
+    height: 265px; 
+}
+.hero .right-bar img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgb(116, 116, 116);
+    height: 265px; 
+}
+
+
+
+
+
+
+
