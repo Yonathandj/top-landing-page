@@ -64,7 +64,7 @@
 .hero .left-bar button {
     color: white;
     font-size: 18px;
-    background-color: #3882f6;
+    background-color: #3882F6;
     border: none;
     width: 120px;
     border-radius: 20px;
@@ -82,7 +82,47 @@
     box-shadow: 0 0 2px rgb(116, 116, 116);
     height: 265px; 
 }
+/* End of Hero */
 
+
+/* Information */
+.information {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.information h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 20px;
+}
+.description-photo-section {
+    display: flex;
+    justify-content: center;
+}
+.description-photo {
+    width: 200px;
+    height: 250px;
+    margin: 40px 10px;
+    overflow: hidden;
+}
+.description-photo img{
+    width: 100%;
+    height: 50%;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+.description-photo p{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    font-size: 15px;
+}
+/* End of Information */
 
 
 
