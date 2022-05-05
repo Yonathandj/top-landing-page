@@ -125,7 +125,29 @@
 /* End of Information */
 
 
-
-
+/* Quotes */
+.quotes {
+    display: flex;
+    height: 200px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+.quotes-quotes {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 150px;
+    background-color: #E5E7EB;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+}
+.quotes p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+/* End of Quotes */
 
 
